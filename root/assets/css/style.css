@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay:100,200,300,400,500,600,700|Dancing+Script:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700|Roboto+Slab&display=swap:100,200,300,400,500,600,700');
+/*fonts
+font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Cambay', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+/*NavBar*/
+.nav-styling {
+     background-color: rgba(78, 59, 90, 0.507);
+    padding: 0px;
+    margin: 0px;
+}
+
+.brand-styling { 
+    font-family: 'Indie Flower', cursive;
+    color:rgb(240, 166, 230);
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 50px;
+   font-weight: 600;
+  
+}
+
+.nav-item {
+    padding-left: 75px;
+    }
+
+.nav-link-style {
+     background-color: rgba(78, 59, 90, 0.507);
+    height: 40px; 
+    width: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(240, 166, 230);
+
+
+}
+/*NavBar*/
+
+/*Home*/
+.home-background {
+
+   height: 100vh; 
+    background: url(../images/background.jpg) no-repeat bottom left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  
+  }
+/*Home*/
