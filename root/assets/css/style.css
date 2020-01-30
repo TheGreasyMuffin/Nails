@@ -14,7 +14,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 .navbar-brand {
-   padding: 0;
+   padding: 5px;
    margin: 0;
 }
 
@@ -53,6 +53,7 @@ font-family: 'Roboto Slab', serif;
      background-color: rgba(78, 59, 90, 0.507);
     height: 42px; 
     width: 88px;
+    padding-bottom: 3px;
     border-radius: 15px;
     text-align: center;
     font-size: 25px;
@@ -61,11 +62,23 @@ font-family: 'Roboto Slab', serif;
     border: solid rgb(240, 166, 230) 2px
 }
 
+
+
 .nav-link-style:hover {
 
     background-color: rgb(240, 166, 230);
     color: grey;
     border: solid grey 2px;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    padding: 0;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: grey;
+    height: 30px;
+    width: 30px;
 }
 /*NavBar*/
 
@@ -87,3 +100,26 @@ font-family: 'Roboto Slab', serif;
   
   }
 /*Home*/
+
+
+/*media querys*/
+@media (max-width: 800px) {
+  .nav-item {
+    padding-left: 20px;
+    }
+    .nav-styling {
+     background-color: rgb(105, 78, 102);
+    padding: 0px;
+    margin: 0px;
+}
+
+.brand-background {
+    text-align: center; 
+}
+
+}
+/*media querys*/
+
+/*icons/buttons/ect*/
+
+/*icons/buttons/ect*/
