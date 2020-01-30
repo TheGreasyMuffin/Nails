@@ -13,21 +13,37 @@ font-family: 'Roboto Slab', serif;
     margin: 0px;
 }
 
+.navbar-brand {
+   padding: 0;
+   margin: 0;
+}
+
 .brand-styling { 
     font-family: 'Indie Flower', cursive;
     color:rgb(240, 166, 230);
    padding-left: 10px;
    padding-right: 10px;
    font-size: 55px;
-   font-weight: 600;
-   background-color: : rgba(78, 59, 90, 0.9);
+   font-weight: 500;
    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-  
+		-1px -1px 0 grey,
+		1px -1px 0 grey,
+		-1px 1px 0 grey,
+		1px 1px 0 grey;
+  }
+
+.brand-styling:hover {
+    
+    color: grey;
+    text-shadow:
+		-1px -1px 0 rgb(240, 166, 230),
+		1px -1px 0 rgb(240, 166, 230),
+		-1px 1px 0 rgb(240, 166, 230),
+		1px 1px 0 rgb(240, 166, 230);
+    
 }
+
+
 
 .nav-item {
     padding-left: 75px;
@@ -35,15 +51,21 @@ font-family: 'Roboto Slab', serif;
 
 .nav-link-style {
      background-color: rgba(78, 59, 90, 0.507);
-    height: 40px; 
-    width: 87px;
+    height: 42px; 
+    width: 88px;
     border-radius: 15px;
     text-align: center;
     font-size: 25px;
     font-family: 'Dancing Script', cursive;
     color: rgb(240, 166, 230);
+    border: solid rgb(240, 166, 230) 2px
+}
 
+.nav-link-style:hover {
 
+    background-color: rgb(240, 166, 230);
+    color: grey;
+    border: solid grey 2px;
 }
 /*NavBar*/
 
