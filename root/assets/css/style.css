@@ -95,7 +95,7 @@ font-family: 'Permanent Marker', cursive;
 /*Home*/
 .home-background {
 
-   height: 100vh; 
+   height: 100vh;
     background: url(../images/background.jpg) no-repeat bottom left fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -125,6 +125,10 @@ font-family: 'Permanent Marker', cursive;
 
 .brand-background {
     text-align: center; 
+}
+
+.home-background {
+    height: 100%;
 }
 
 }
@@ -183,5 +187,21 @@ background-color: rgba(0,0,0,0.8)
     text-align: center;
 }
 
+.icon-style {
+   font-size: 40px;
+   color: rgb(240, 166, 230);
+   transition: all 0.5 ease-in-out;
+   padding-bottom: 20px;
+}
 
+.icon-style:hover {
+
+   color: rgb(122, 47, 112);
+   
+}
+
+.fixed-bottom {
+    padding: 0;
+    margin: 0;
+}
 /*Social*/
