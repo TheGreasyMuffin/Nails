@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Cambay:100,200,300,400,500,600,700|Dancing+Script:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700|Roboto+Slab&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap:100,200,300,400,500,600,700');
 /*fonts
 font-family: 'Indie Flower', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Cambay', sans-serif;
 font-family: 'Roboto Slab', serif;
+font-family: 'Permanent Marker', cursive;
 */
 
 /*NavBar*/
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
 .nav-styling {
      background-color: rgba(78, 59, 90, 0.507);
     padding: 0px;
@@ -14,19 +21,20 @@ font-family: 'Roboto Slab', serif;
 }
 
 .navbar-brand {
-   padding: 5px;
+   padding: 0px;
    margin: 0;
+   transition: all 0.25s ease-in-out;
 }
 
 .brand-styling { 
     font-family: 'Indie Flower', cursive;
-    color:rgb(240, 166, 230);
-   padding-left: 10px;
+    color: black;
+   padding-left: 25px;
    padding-right: 10px;
    font-size: 55px;
    font-weight: 500;
    text-shadow:
-		-1px -1px 0 grey,
+		-1px -1px 0 ,
 		1px -1px 0 grey,
 		-1px 1px 0 grey,
 		1px 1px 0 grey;
@@ -47,6 +55,7 @@ font-family: 'Roboto Slab', serif;
 
 .nav-item {
     padding-left: 75px;
+    
     }
 
 .nav-link-style {
@@ -59,7 +68,8 @@ font-family: 'Roboto Slab', serif;
     font-size: 25px;
     font-family: 'Dancing Script', cursive;
     color: rgb(240, 166, 230);
-    border: solid rgb(240, 166, 230) 2px
+    border: solid rgb(240, 166, 230) 2px;
+    transition: all 0.28s ease-in-out;
 }
 
 
@@ -120,6 +130,58 @@ font-family: 'Roboto Slab', serif;
 }
 /*media querys*/
 
+/*jumbotron*/
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(0,0,0,0.8)
+}
+
+.jumbotron-header {
+   font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-size: 100px;
+    margin-right: 20px; 
+    padding: 10px;
+    color:  rgb(240, 166, 230);
+     text-shadow:
+		-1px -1px 0 rgb(0, 0, 0),
+		1px -1px 0 rgb(0, 0, 0),
+		-1px 1px 0 rgb(0, 0, 0),
+		1px 1px 0 rgb(0, 0, 0);
+}
+
+.jumbotron-sub {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 200;
+    margin-right: 20px;
+    color: rgb(143, 64, 132);
+        text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
+}
+/*jumbotron*/
+
+
 /*icons/buttons/ect*/
 
 /*icons/buttons/ect*/
+
+/*Social*/
+.social-row {
+    text-align: center;
+}
+
+
+/*Social*/
