@@ -92,45 +92,6 @@ font-family: 'Permanent Marker', cursive;
 }
 /*NavBar*/
 
-/*Home*/
-.home-background {
-
-   height: 100vh;
-    background: url(../images/background.jpg) no-repeat bottom left fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-  
-  }
-/*Home*/
-
-
-/*media querys*/
-@media (max-width: 800px) {
-  .nav-item {
-    padding-left: 20px;
-    }
-    .nav-styling {
-     background-color: rgb(105, 78, 102);
-    padding: 0px;
-    margin: 0px;
-}
-
-.brand-background {
-    text-align: center; 
-}
-
-
-}
-/*media querys*/
-
 /*jumbotron*/
 .jumbotron {
     background-color: transparent;
@@ -175,13 +136,30 @@ background-color: rgba(0,0,0,0.8)
 /*jumbotron*/
 
 
-/*icons/buttons/ect*/
+/*Home*/
+.home-background {
 
-/*icons/buttons/ect*/
+   height: 100vh;
+    background: url(../images/background.jpg) no-repeat bottom left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  
+  }
+/*Home*/
 
 /*Social*/
 .social-row {
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .icon-style {
@@ -201,3 +179,30 @@ background-color: rgba(0,0,0,0.8)
   
 }
 /*Social*/
+
+
+/*media querys*/
+@media (max-width: 1000px) {
+  .nav-item {
+    padding-left: 20px;
+    }
+    .nav-styling {
+     background-color: rgb(105, 78, 102);
+    padding: 0px;
+    margin: 0px;
+}
+
+.brand-background {
+    text-align: center; 
+}
+
+
+}
+/*media querys*/
+
+
+
+/*icons/buttons/ect*/
+
+/*icons/buttons/ect*/
+
