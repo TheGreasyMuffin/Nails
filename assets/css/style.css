@@ -127,9 +127,6 @@ font-family: 'Permanent Marker', cursive;
     text-align: center; 
 }
 
-.home-background {
-    height: 100%;
-}
 
 }
 /*media querys*/
@@ -194,14 +191,13 @@ background-color: rgba(0,0,0,0.8)
    padding-bottom: 20px;
 }
 
-.icon-style:hover {
+.icon-style:hover {+
 
    color: rgb(122, 47, 112);
    
 }
 
 .fixed-bottom {
-    padding: 0;
-    margin: 0;
+  
 }
 /*Social*/
