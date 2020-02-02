@@ -84,9 +84,8 @@ font-family: 'Permanent Marker', cursive;
 .navbar .navbar-toggler {
     border: 0;
     padding: 0;
-    margin-right: 30px;
     margin-top: 10px;
-    color: grey;
+    color: rgb(240, 166, 230);
     height: 30px;
     width: 30px;
 }
@@ -156,11 +155,23 @@ background-color: rgba(0,0,0,0.8)
 /*jumbotron*/
 
 /*gallery*/
-.img-size {
-
+.card {
+width: 322px;
+margin: 5px;
 }
-/*gallery*/
 
+
+.card-img-top {
+    height: 400px;
+    width: 320px;
+}
+
+.photo-row {
+    margin: 0 auto;
+}
+
+
+/*gallery*/
 
 /*Social*/
 .social-row {
