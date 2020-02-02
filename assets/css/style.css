@@ -118,15 +118,6 @@ font-family: 'Permanent Marker', cursive;
     padding-bottom: 100px;
 }
 
-.overlay {
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-background-color: rgba(0,0,0,0.8)
-}
-
 .jumbotron-header {
    font-family: 'Indie Flower', cursive;
     font-weight: 400;
@@ -155,11 +146,30 @@ background-color: rgba(0,0,0,0.8)
 /*jumbotron*/
 
 /*gallery*/
+
 .card {
 width: 322px;
-margin: 5px;
+margin: 10px auto;
+background-color: rgba(240, 166, 230, 0.664);
+color: grey;
+text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
 }
 
+.card h5 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+.card p {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 200;
+    font-size: 20px;
+}
 
 .card-img-top {
     height: 400px;
@@ -187,15 +197,12 @@ margin: 5px;
    padding-bottom: 20px;
 }
 
-.icon-style:hover {+
+.icon-style:hover{
 
    color: rgb(122, 47, 112);
    
 }
 
-.fixed-bottom {
-  
-}
 /*Social*/
 
 
