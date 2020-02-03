@@ -8,16 +8,13 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Permanent Marker', cursive;
 */
 
+
 /*NavBar*/
-.navbar {
-    padding: 0;
-    margin: 0;
-}
 
 .nav-styling {
      background-color: rgba(78, 59, 90, 0.507);
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar-brand {
@@ -146,41 +143,9 @@ font-family: 'Permanent Marker', cursive;
 /*jumbotron*/
 
 /*gallery*/
-
-.card {
-width: 322px;
-margin: 10px auto;
-background-color: rgba(240, 166, 230, 0.664);
-color: grey;
-text-shadow:
-		-1px -1px 0 rgb(255, 255, 255),
-		1px -1px 0 rgb(255, 255, 255),
-		-1px 1px 0 rgb(255, 255, 255),
-		1px 1px 0 rgb(255, 255, 255);
+.carousel {
+    display: inline-block;
 }
-
-.card h5 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 30px; 
-    font-weight: 600;
-}
-
-.card p {
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 200;
-    font-size: 20px;
-}
-
-.card-img-top {
-    height: 400px;
-    width: 320px;
-}
-
-.photo-row {
-    margin: 0 auto;
-}
-
-
 /*gallery*/
 
 /*Social*/
@@ -215,10 +180,6 @@ text-shadow:
      background-color: rgb(105, 78, 102);
     padding: 0px;
     margin: 0px;
-}
-
-.brand-background {
-    text-align: center; 
 }
 
 

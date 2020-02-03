@@ -15,113 +15,85 @@
 
 <body class="home-background">
 
-	<section class="nav-section">
-		<div class="navbar navbar-expand-lg nav-styling fixed-top">
-			<a class="navbar-brand brand-styling" href="index.html">
-				<div class="brand-background">Inspired Nails</div>
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="container nav-container">
+		<div class="row">
+			<div class="col-12">
+				<div class="navbar navbar-expand-lg nav-styling fixed-top">
+					<a class="navbar-brand brand-styling" href="index.html">
+						<div class="brand-background">Inspired Nails</div>
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fas fa-chevron-circle-down"></i></span>
   </button>
 
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
 
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">
-							<div class="nav-link-style">Home</div>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="gallery.html">
-							<div class="nav-link-style">Gallery</div>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<div class="nav-link-style">Find Us</div>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<div class="nav-link-style">Contact</div>
-						</a>
-					</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">
+									<div class="nav-link-style">Home</div>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="gallery.html">
+									<div class="nav-link-style">Gallery</div>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<div class="nav-link-style">Find Us</div>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<div class="nav-link-style">Contact</div>
+								</a>
+							</li>
 
-				</ul>
-			</div>
-		</div>
-	</section>
-
-	<section class="photo-section">
-		<div class="row photo-row">
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class=" card">
-					<img src="/assets/images/photo1.jpg" class="card-img-top" alt="nails1">
-					<div class="card-body text-center">
-						<h5 class="card-text">Sarah Jones</h5>
-						<p class="card-text">I'm really happy with these. Time for a party I think.</p>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="card">
-					<img src="/assets/images/photo4.jpg" class="card-img-top" alt="nails1">
-					<div class="card-body text-center">
-						<h5 class="card-text">Sarah Jones</h5>
-						<p class="card-text">I'm really happy with these. Time for a party I think.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="d-none d-lg-block col-md-6 col-lg-4">
-				<div class="card">
-					<img src="/assets/images/photo3.jpg" class="card-img-top" alt="nails1">
-					<div class="card-body text-center">
-						<h5 class="card-text">Sarah Jones</h5>
-						<p class="card-text">I'm really happy with these. Time for a party I think.</p>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+	</nav>
 
-		<div class="row photo-row">
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="card">
-					<img src="/assets/images/background.jpg" class="card-img-top" alt="nails1">
-					<div class="card-body text-center">
-						<h5 class="card-text">Sarah Jones</h5>
-						<p class="card-text">I'm really happy with these. Time for a party I think.</p>
-					</div>
-				</div>
-			</div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/images/photo1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/photo2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/photo3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/photo4.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/photo5.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    
 
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="card">
-					<img src="/assets/images/photo5.jpg" class="card-img-top" alt="nails1">
-					<div class="card-body text-center">
-						<h5 class="card-text">Sarah Jones</h5>
-						<p class="card-text">I'm really happy with these. Time for a party I think.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="d-none d-lg-block col-lg-4">
-				<div class="card">
-					<img src="/assets/images/photo2.jpg" class="card-img-top" alt="nails1">
-					<div class="card-body text-center">
-						<h5 class="card-text">Sarah Jones</h5>
-						<p class="card-text">I'm really happy with these. Time for a party I think.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section>
-
-	<section class="footer-section">
+	<footer class="footer-container">
 		<div class="row fixed-bottom social-row">
 			<div class="col-4">
 				<a href=""><i class="icon-style fab fa-twitter"></i></a>
@@ -133,7 +105,7 @@
 				<a href=""><i class="icon-style fab fa-facebook-square"></i></a>
 			</div>
 		</div>
-	</section>
+	</footer>
 
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
