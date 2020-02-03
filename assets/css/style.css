@@ -143,8 +143,8 @@ font-family: 'Permanent Marker', cursive;
 /*jumbotron*/
 
 /*gallery*/
-.carousel {
-    display: inline-block;
+.photo {
+    height: 300px;
 }
 /*gallery*/
 
