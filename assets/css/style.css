@@ -51,7 +51,7 @@ font-family: 'Permanent Marker', cursive;
 
 
 .nav-item {
-    padding-left: 75px;
+    padding-left: 20px;
     
     }
 
@@ -145,12 +145,13 @@ font-family: 'Permanent Marker', cursive;
 /*gallery*/
 .photo-container {
     margin: auto;
-
+    position:  absolute;
+    padding: 300px
 }
 
 .photo {
- padding-top:200px;
- 
+
+height:600px;
 }
 /*gallery*/
 
