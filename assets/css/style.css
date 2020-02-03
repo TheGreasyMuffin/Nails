@@ -143,13 +143,19 @@ font-family: 'Permanent Marker', cursive;
 /*jumbotron*/
 
 /*gallery*/
+.photo-container {
+    margin: auto;
+
+}
+
 .photo {
-    height: 300px;
+ padding-top:200px;
+ 
 }
 /*gallery*/
 
-/*Social*/
-.social-row {
+/*footer*/
+.footer-container {
     text-align: center;
     padding: 0;
     margin: 0;
@@ -168,7 +174,7 @@ font-family: 'Permanent Marker', cursive;
    
 }
 
-/*Social*/
+/*footer*/
 
 
 /*media querys*/
